@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>Reindirizzamento a stefanosuperina.it</title>
+  <meta http-equiv="refresh" content="0;url=https://stefanosuperina.it/">
+  <link rel="canonical" href="https://stefanosuperina.it/">
+  <script>
+    (function () {
+      var path = window.location.pathname + window.location.search + window.location.hash;
+      if (path === '/' || path === '') path = '/';
+      window.location.replace('https://stefanosuperina.it' + path);
+    })();
+  </script>
+  <style>
+    body { font-family: system-ui, sans-serif; text-align: center; padding: 3rem; color: #333; }
+    a { color: #1a73e8; }
+  </style>
+</head>
+<body>
+  <p>Il sito si è spostato su <a href="https://stefanosuperina.it/">stefanosuperina.it</a>.</p>
+  <p>Se non vieni reindirizzato automaticamente, <a id="go" href="https://stefanosuperina.it/">clicca qui</a>.</p>
+  <script>document.getElementById('go').href = 'https://stefanosuperina.it' + location.pathname + location.search + location.hash;</script>
+</body>
+</html>
